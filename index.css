@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-align: center;
+}
+
+h3 {
+  display: block;
+   font-size: 1em;
+   margin-block-start: 1em;
+   margin-block-end: 1em;
+   margin-inline-start: 0px;
+   margin-inline-end: 0px;
+   font-weight: bold;
+}
+
+h4 {
+  text-decoration: underline;  
+}
+
+#main {
+    background-color: lightgrey;
+    border-radius: 5px;
+    margin: 5px 5px;
+    padding: 1rem;
+}
+
+#title {
+  display: flex;
+  justify-content: center;
+}
+
+p {
+  font-size: 1.25rem;
+  margin: 1rem;
+  text-align: left;
+}
+
+blockquote {
+  font-style: italic;
+}
+
+#img-div {
+  margin-top: 3rem;
+}
+
+#image {
+  width: 100%;
+height: auto;
+max-width: 500px;
+margin-left: auto;
+margin-right: auto;
+display: block;
+}
+
+#img-caption {
+  font-size: 1rem;
+}
+
+#tribute-info {
+  display: block;
+}
+
+ul {
+  list-style: none;
+  text-align: left;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+li {
+  font-size: 1rem;
+  margin: 0.25rem 0.25rem;
+  padding: 0.75rem;
+  font-size: 1rem;
+  margin: 0.25rem 0.25rem;
+  padding: 0.75rem;
+  border: solid darkgrey;
+  border-radius: 5px;
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+}
+
+a:link li {
+  text-decoration: none;
+  color: black;
+}
+
+li a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+li a:active {
+  color: none;
+  text-decoration: none;
+}
+
+li a:visited {
+  color: none;
+  text-decoration: none;
+}
+
+#container-holder {
+  display: block;
+  padding: 1rem 1rem;
+  margin: 1rem 1rem;
+}
+
+#container-1,
+#container-2,
+#container-3,
+#container-4,
+#container-5,
+#container-6,
+#container-7,
+#container-8,
+#container-9,
+#container-10 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
